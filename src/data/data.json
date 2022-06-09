@@ -1,0 +1,27 @@
+{
+    "Header" : {
+        "title" : "Title Here",
+        "sub-heading": "Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words."
+    },
+    "About" : {
+        "sub-heading": "Ecology is Your Best Investment",
+        "paragraph": "Lorem ipsum lor fermum dolor eletum nulla eu pla eletum nulla eu placerat etum nulla eu place etiam tincidunt tiam tincidunt orci lacus id varius dolor fermum sit amet. Lorem ipsum dolor tincidunt orci lacus id varius dolor fermum dolor eletum nulla eu placerat etum nulla eu place etiam tincidunt tiam tincidunt orci lacus id varius dolor fermum ncidunt orci lacus id varius dolor fermum sit amet. Best of business planning Experienced business advisor Advisor for your business Reliable for your business consultancy"
+    },
+    "Service" : {
+        "sub-heading": "Were working day and night to provide America wit reliable,",
+        "sub-heading-2": "cost-efficient solar energy panels and systems!",
+        "card-heading1": "RESIDENTIAL",
+        "card-info1": "Going green and swapping your old conventional energy grid for a solar panel is a responsible decision.We understand that, as by now we’ve already helped thousands of American…",
+        "card-heading2": "RESIDENTIAL",
+        "card-info2": "Going green and swapping your old conventional energy grid for a solar panel is a responsible decision.We understand that, as by now we’ve already helped thousands of American…",
+        "card-heading3": "RESIDENTIAL",
+        "card-info3": "Going green and swapping your old conventional energy grid for a solar panel is a responsible decision.We understand that, as by now we’ve already helped thousands of American…"
+    },
+    "Footer" : {
+        "quickLink": "QUICK LINKS",
+        "link1": "About Us",
+        "link2": "Contact Us",
+        "link3": "Service",
+        "link4": "Products"
+    }
+}

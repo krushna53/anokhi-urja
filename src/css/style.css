@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.commonTitleFontSize {
+    font-size: 36px !important;
+    color: #ee3765 !important;
+    margin-bottom: 10px;
+}
+.commonWidth {
+    max-width: 100%;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+}
+.container-spacing {
+    margin: 4rem;
+    padding: 2rem;
+}
+
+/* css for about us section */
+.anokhiUrja-AboutUs {
+    margin: 78px 29px;
+}
+.anokhiUrja-AboutUs-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.anokhiUrja-AboutUs-flex .AboutUs-info {
+    max-width: 665px;
+    height: auto;
+    color: #4D4D4D;
+}
+.anokhiUrja-AboutUs h2 {
+    display: flex;
+    justify-content: center;
+}
+.anokhiUrja-AboutUs .sectionLogo {
+    width: 169px !important;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.AboutUs-info h3 {
+    font-size: 20px;
+}
+.AboutUs-info p {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+}
+.solar-img {
+    width: 490px;
+    height: auto;
+    border-radius: 5px;
+}
+/* end */
+
+/* css for service section  */
+.anokhi-urja-service-section {
+    /* padding-top: 80px; */
+    padding-bottom: 80px;
+}
+
+.anokhi-urja-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.sectionLogo {
+    margin-bottom: 29px;
+    width: 200px;
+}
+
+.anokhi-urja-service span {
+    font-size: 37px;
+    margin: 15px 0px 0px 0px;
+    color: #4D4D4D;
+}
+
+.anokhi-urja-service h2 {
+    font-size: 40px;
+    margin: 27px 0px 38px 0px;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 26px;
+    text-align: center;
+    max-width: 700px;
+    margin: auto auto 60px auto;
+    color: #4D4D4D;
+}
+
+.anokhi-urja-blogsection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    box-shadow: 1px 1px 8px #00000038;
+    overflow: hidden;
+    border-radius: 5px;
+    transform: translateY(0);
+    transition: 0.7s;
+}
+
+.blogs:hover {
+    transform: translateY(-20px);
+}
+
+.blogs img {
+    margin-bottom: 3px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.blogs h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.blogText {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* end */

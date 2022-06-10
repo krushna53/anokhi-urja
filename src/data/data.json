@@ -9,6 +9,28 @@
         "paragraph": "Lorem ipsum lor fermum dolor eletum nulla eu pla eletum nulla eu placerat etum nulla eu place etiam tincidunt tiam tincidunt orci lacus id varius dolor fermum sit amet. Lorem ipsum dolor tincidunt orci lacus id varius dolor fermum dolor eletum nulla eu placerat etum nulla eu place etiam tincidunt tiam tincidunt orci lacus id varius dolor fermum ncidunt orci lacus id varius dolor fermum sit amet. Best of business planning Experienced business advisor Advisor for your business Reliable for your business consultancy",
         "aboutusImage": "/Images/solar-panels.jpg"
     }],
+    "Awards" : [{
+        "name": "Award Section",
+        "awardimg1": "/Images/onwer1.jpg",
+        "awardimg2": "/Images/award.jpg",
+        "awardinfo": "Resolition of environmental protection and conservation of the plant"
+    }],
+    "ourproducts" : [{
+        "name": "Our Products",
+        "img1": "/Images/DCLighting.jpg",
+        "img2": "/Images/powerBoxonTheGo.jpg"
+    }],
+    "ProductGallery" : [{
+        "name": "product gallery",
+        "img1": "/Images/powerbox1.jpg",
+        "img2": "/Images/powerbox2.jpg",
+        "img3": "/Images/powerbox3.jpg",
+        "img4": "/Images/powerbox4.jpg",
+        "img5": "/Images/powerbox5.jpg",
+        "img6": "/Images/powerbox6.jpg",
+        "img7": "/Images/powerbox7.jpg",
+        "img8": "/Images/powerbox8.jpg"
+    }],
     "Service" : [{
         "name": "Service Section",
         "subheading": "Were working day and night to provide America wit reliable,cost-efficient solar energy panels and systems!",
@@ -21,6 +43,10 @@
         "cardheading3": "RESIDENTIAL",
         "cardimage3": "/Images/image3.png",
         "cardinfo3": "Going green and swapping your old conventional energy grid for a solar panel is a responsible decision.We understand that, as by now we’ve already helped thousands of American…"
+    }],
+    "Blog" : [{
+        "name": "blog section",
+        "Heading": "BLOGS"
     }],
     "Footer" : [{
         "quickLink": "QUICK LINKS",

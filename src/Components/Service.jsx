@@ -2,7 +2,7 @@ import img from "../Images/image4.png";
 export const Service = (props) => {
   return (
     <>
-      <div className="commonWidth container-spacing anokhi-urja-service-section">
+      <div id="service" className="commonWidth container-spacing anokhi-urja-service-section">
         <div className="anokhi-urja-servicewrapper">
           {props.data
             ? props.data.map((d, i) => (

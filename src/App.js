@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { Header } from "./Components/Header";
+import { Banner } from "./Components/Banner";
 import { AboutUs } from "./Components/AboutUs";
 import { Service } from "./Components/Service";
 import { Awards } from "./Components/Awards";
-import { OurProducts } from "./Components/OurProducts";
+import { ImageSlider } from "./Components/ImageSlider";
 import { Blog } from "./Components/Blog";
 import { ProductGallery } from "./Components/ProductGallery";
 import Jsondata from "./data/data.json";
@@ -22,10 +24,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="anokhiUrja-container">
+          <Header data={landingPageData.Header}/>
+          <Banner data={landingPageData.Banner}/>
           <AboutUs data={landingPageData.AboutUs}/>
           <Awards data={landingPageData.Awards}/>
-          {/* <OurProducts data={landingPageData.ourproducts}/> */}
+          <ImageSlider data={landingPageData.ImageSlider}/>
           <ProductGallery data={landingPageData.ProductGallery}/>
           <Service data={landingPageData.Service}/>
           <Blog/>

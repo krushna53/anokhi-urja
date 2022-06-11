@@ -1,8 +1,27 @@
 {
     "Header" : [{
-        "title" : "Title Here",
-        "sub-heading": "Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words."
+        "name": "Header",
+        "menuItems": [ {"name" : "Home","id": "#Home"},
+            {"name" : "Product","id": "#Product"},
+            {"name" : "Service","id": "#service"},
+            {"name" : "Video","id": "#video"},
+            {"name" : "About Us","id":"#aboutus"},
+            {"name" : "Contact Us","id": "#contact"}],
+        "logo": "/Images/anokhi-urja-New.png"
     }],
+    "Banner" : [{
+        "name": "banner section",
+        "title" : "Title Here",
+        "subheading": "Lorem Ipsum available but the majority have suffered alteration in some form, by injected humour randomised words."
+    }],
+    "ImageSlider" : [
+        {
+            "image" : "/Images/DCLighting.jpg"
+        },
+        {
+            "image" : "/Images/powerBoxonTheGo.jpg"
+        }
+    ],
     "AboutUs" : [{
         "name": "AboutUs Section",
         "subheading": "Ecology is Your Best Investment",

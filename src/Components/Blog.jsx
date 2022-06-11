@@ -2,9 +2,9 @@ import img from "../Images/image4.png";
 export const Blog = (props) => {
   return (
     <>
-      <div className="commonWidth mainbox container-spacing" id="blog">
+      <div className="commonWidth mainbox container-spacing" id="video">
         <div id="BlogSection">
-        <h2 className="commonTitleFontSize">BLOG SECTION</h2>
+        <h2 className="commonTitleFontSize">VIDEO SECTION</h2>
                 <img className="sectionLogo" src={img} alt="image4"/>
                 <div className="flex-container">
                     <div className="flex-item-left"><iframe

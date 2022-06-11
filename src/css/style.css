@@ -21,6 +21,122 @@ body {
     margin: 4rem;
     padding: 2rem;
 }
+.gridspaceWithCenter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* css for header */
+.anokhiUrja-container {
+    margin: auto;
+    max-width: 1796px;
+}
+.anokhiUrja-container .anokhiUrja-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #d4cbcb;
+    width: 100%;
+    height: 110px;
+}
+.anokhiUrja-container .anokhiUrja-logo {
+    margin: 1rem 1rem;
+}
+.anokhiUrja-logo img {
+    width: 80px;
+    height: 115px;
+    margin-left: 15px;
+}
+.anokhiUrja-container .anokhiUrja-navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.anokhiUrja-container .anokhiUrja-navbar li {
+    display: inline-block;
+    margin-left: 1.5rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+.anokhiUrja-container .anokhiUrja-navbar li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4D4D4D;
+}
+.anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button {
+    margin: 2rem 2rem;
+}
+.anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button button {
+    background: #efa92a;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    border: none;
+    color: #4D4D4D;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+.anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button button:hover {
+    cursor: pointer;
+    background: #89C407;
+}
+
+/* css for banner */
+.anokhiUrja-container .anokhiUrja-banner {
+    background-position: center;
+    background-size: cover;
+    color: #4D4D4D;
+    max-width: inherit;
+    min-height: 758px;
+    display: flex;
+}
+.anokhiUrja-banner .anokhiUrja-paragraph {
+    max-width: 550px;
+    align-items: center;
+    margin-top: 70px;
+}
+.anokhiUrja-container .anokhiUrja-banner h1 {
+    padding-bottom: 2.0rem;
+    font-size: 4rem;
+}
+.anokhiUrja-container .anokhiUrja-banner p {
+    padding-bottom: 2.0rem;
+    font-size: 1.3rem;
+}
+.anokhiUrja-Con-button a button {
+    background: #efa92a;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    border: none;
+    color: #4D4D4D;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+.anokhiUrja-Con-button a button:hover {
+    cursor: pointer;
+    background: #89C407;
+}
+
+/* end */
+/* end */
 
 /* css for about us section */
 .anokhiUrja-AboutUs {
@@ -90,6 +206,49 @@ body {
 }
 
 /* end */
+
+/* css for slider section */
+.Slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-img{
+    width: 560px;
+    height: auto;
+    border-radius: 10px;
+}
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide:active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+/* end */
+
 
 /* css for service section  */
 .anokhi-urja-service-section {

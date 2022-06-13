@@ -440,4 +440,26 @@ body {
 .right p {
     margin-bottom: 10px;
 }
+.right Iframe{
+    border: 1px solid black;
+}
 /* end */
+
+/* css for copyright */
+.anokhiUrja-container .anokhiUrja-copy-right {
+    background: #7e7e7e;
+    height: 3.4rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 0.6rem;
+}
+
+.anokhiUrja-container .anokhiUrja-copy-right h2 a {
+    text-decoration: none;
+    margin-top: 2rem;
+    color: #4D4D4D;
+}
+/* end */
+
+/* css for mobile responsive */

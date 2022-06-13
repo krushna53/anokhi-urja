@@ -35,6 +35,9 @@ function App() {
           <Service data={landingPageData.Service}/>
           <Blog/>
           <Footer data={landingPageData.Footer}/>
+          <div class="anokhiUrja-copy-right">
+            <h2>Copyright © 2022 Anokhi Urja</h2>
+        </div>
       </div>
     </>
   );

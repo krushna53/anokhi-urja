@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faY } from '@fortawesome/free-solid-svg-icons'
+import Iframe from 'react-iframe';
 import { faYoutube, faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 export const Footer = (props) => {
   return (
@@ -36,7 +36,10 @@ export const Footer = (props) => {
                     <div className="content">
                         <h4>{d.addressh}</h4>
                         <p>{d.address}</p>
-                        
+                        <Iframe
+                            url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.0547613618965!2d72.87335551421596!3d19.279984650540563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b15c15ec2309%3A0x1461ffd3b399ae26!2sAnokhi%20Urja!5e0!3m2!1sen!2sin!4v1653031342175!5m2!1sen!2sin"
+                            height="260" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"/>
                     </div>
                 </div>
             </div>

@@ -30,7 +30,7 @@ function App() {
           <Banner data={landingPageData.Banner}/>
           <AboutUs data={landingPageData.AboutUs}/>
           <Awards data={landingPageData.Awards}/>
-          {/* <ImageSlider data={landingPageData.ImageSlider}/> */}
+          <ImageSlider data={landingPageData.ImageSlider}/> 
           <ProductGallery data={landingPageData.ProductGallery}/>
           <Service data={landingPageData.Service}/>
           <Blog/>

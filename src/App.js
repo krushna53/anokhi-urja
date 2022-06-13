@@ -7,6 +7,7 @@ import { Awards } from "./Components/Awards";
 import { ImageSlider } from "./Components/ImageSlider";
 import { Blog } from "./Components/Blog";
 import { ProductGallery } from "./Components/ProductGallery";
+import { Footer } from "./Components/Footer";
 import Jsondata from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import './css/style.css';
@@ -29,10 +30,11 @@ function App() {
           <Banner data={landingPageData.Banner}/>
           <AboutUs data={landingPageData.AboutUs}/>
           <Awards data={landingPageData.Awards}/>
-          <ImageSlider data={landingPageData.ImageSlider}/>
+          {/* <ImageSlider data={landingPageData.ImageSlider}/> */}
           <ProductGallery data={landingPageData.ProductGallery}/>
           <Service data={landingPageData.Service}/>
           <Blog/>
+          <Footer data={landingPageData.Footer}/>
       </div>
     </>
   );

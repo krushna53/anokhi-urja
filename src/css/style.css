@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400&family=Rubik:wght@300&display=swap');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
 }
 
 body {
@@ -208,45 +210,23 @@ body {
 /* end */
 
 /* css for slider section */
-.Slider{
+.anokhiUrja-productSlider {
+    max-width: 1040px;
+    margin: auto;
     position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 80px;
 }
-.slider-img{
-    width: 560px;
-    height: auto;
-    border-radius: 10px;
+.sliderimg{
+    margin: auto;
+    width: 50%;
+    height: 50%;
 }
-.right-arrow{
-    position: absolute;
-    top: 50%;
-    right: 32px;
-    font-size: 3rem;
-    color: black;
-    cursor: pointer;
-    user-select: none;
+.sliderImageWrapper {
+    position: relative;
+    overflow: hidden;
 }
-.left-arrow{
-    position: absolute;
-    top: 50%;
-    left: 32px;
-    font-size: 3rem;
-    color: black;
-    cursor: pointer;
-    user-select: none;
-}
-.slide{
-    opacity: 0;
-    transition-duration: 1s ease;
-}
-.slide:active {
-    opacity: 1;
-    transition-duration: 1s;
-    transform: scale(1.08);
-}
+
 /* end */
 
 
@@ -389,4 +369,75 @@ body {
     margin-bottom: 22px;
 }
 
+/* end */
+
+/* css for footer */
+.anokhiUrja-Footer {
+    display: flex;
+    background-color: #efefef;
+}
+
+.anokhiUrja-Footer .box {
+    flex-basis: 26%;
+    padding: 67px 20px 20px 0px;
+}
+.footer-logo {
+    width: 150px;
+    display: block;
+    padding: 62px 20px 0px 20px;
+    margin-right: 50px;
+}
+.box h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #121111;
+}
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.box .content:before {
+    position: absolute;
+    content: '';
+    top: -13px;
+    height: 2px;
+    width: 20%;
+    background: #00ff6a;
+}
+.left ul {
+    list-style-type: none;
+}
+.left ul li {
+    margin-bottom: 10px;
+    -webkit-transition: all .15s ease-in;
+    -moz-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    transform: translateX(0px);
+}
+.left ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+}
+.middle {
+    margin-right: 10px;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+.social-media-icons {
+    width: 45px;
+    height: 55px;
+    margin: 10px;
+    color: black;
+}
+.social-media-icons:hover {
+    transition: all .5s;
+    transform: scale(1.2);
+}
+.right p {
+    margin-bottom: 10px;
+}
 /* end */

@@ -16,9 +16,11 @@
     }],
     "ImageSlider" : [
         {
+            "id": 1,
             "image" : "/Images/DCLighting.jpg"
         },
         {
+            "id": 2,
             "image" : "/Images/powerBoxonTheGo.jpg"
         }
     ],
@@ -68,10 +70,16 @@
         "Heading": "BLOGS"
     }],
     "Footer" : [{
-        "quickLink": "QUICK LINKS",
-        "link1": "About Us",
-        "link2": "Contact Us",
-        "link3": "Service",
-        "link4": "Products"
+        "footerlogo": "/Images/footerLogo.png",
+        "subheading1": "Quick Links",
+        "quicklink1": "About Us",
+        "quicklink2": "Contact Us",
+        "quicklink3": "Services",
+        "quicklink4": "Products",
+        "subheading2": "Social-media",
+        "subheading3": "Location",
+        "addressh": "Address",
+        "address": "B/104, Prarthana bldg, Sanghvi Nagar Mira Bhayandar Road, Mira Road, Thane ,Maharashtra 401107"
+
     }]
 }

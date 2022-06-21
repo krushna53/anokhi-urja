@@ -36,10 +36,12 @@
         "awardimg2": "/Images/award.jpg",
         "awardinfo": "Resolition of environmental protection and conservation of the plant"
     }],
-    "ourproducts" : [{
+    "OurProducts" : [{
         "name": "Our Products",
         "img1": "/Images/DCLighting.jpg",
-        "img2": "/Images/powerBoxonTheGo.jpg"
+        "img2": "/Images/powerBoxonTheGo.jpg",
+        "img3": "/Images/powerbox3.jpg",
+        "img4": "/Images/powerbox1.jpg"
     }],
     "ProductGallery" : [{
         "name": "product gallery",
@@ -68,6 +70,13 @@
     "Blog" : [{
         "name": "blog section",
         "Heading": "BLOGS"
+    }],
+    "Contactform" : [{
+        "name": "Contact Us",
+        "location": "B/107, Darshan Geeta, Mira Bhayandar Road. Mira Road, East, Mumbai-401107, Maharashtra, India",
+        "email": "anokhiurja@gmail.com",
+        "mobile": "9820172600",
+        "message": "If you are interested in our product , send us email to connect us"
     }],
     "Footer" : [{
         "footerlogo": "/Images/footerLogo.png",

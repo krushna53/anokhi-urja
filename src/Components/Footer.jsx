@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Iframe from 'react-iframe';
-import { faYoutube, faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faWhatsapp, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 export const Footer = (props) => {
   return (
     <>

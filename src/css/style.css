@@ -209,31 +209,32 @@ body {
 
 /* end */
 
-/* css for slider section */
-.anokhiUrja-productSlider {
+/* css for product section */
+.anokhiUrja-productContainer {
     max-width: 1040px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
-    position: relative;
     margin-top: 8%;
     margin-bottom: 80px;
 }
-.sliderimg{
-    margin: auto;
-    width: 50%;
-    height: 50%;
+.product-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
-.sliderImageWrapper {
-    position: relative;
-    overflow: hidden;
+.product-img{
+    width: 360px;
+    height: auto;
 }
-
 /* end */
 
 
 /* css for service section  */
 .anokhi-urja-service-section {
-    /* padding-top: 80px; */
-    padding-bottom: 80px;
 }
 .anokhi-urja-service {
     display: flex;
@@ -370,6 +371,78 @@ body {
 }
 
 /* end */
+/* contact us section */
+.anokhiUrja-contactform h2{
+    
+}
+.contact-container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.contact-container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-container .content .get-in-touch{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+.contact-container .content .get-in-touch::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+}
+.get-in-touch .sub-topic{
+    color: #ee3765;
+}
+.contact-container .content .get-in-touch .details{
+    margin: 14px;
+    text-align: center;
+}
+.contact-container .content .contact-form{
+    width: 75%;
+    margin-left: 75px;
+}
+.contact-container .contact-form .sub-topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #ee3765;
+}
+.contact-container .contact-form .inputBox input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    outline: none;
+    margin: 12px 0px;
+    text-align: center;
+}
+.contact-container .contact-form .inputBox button{
+    background-color: #efa92a;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    outline: none;
+    margin: 12px 0px;
+    text-align: center;
+    color: #000000;
+    font-size: 1rem;
+}
+/* end */
 
 /* css for footer */
 .anokhiUrja-Footer {
@@ -468,5 +541,27 @@ body {
         margin: 1rem;
         padding: 1rem;
     }
-
+    /* contact us */
+    .contact-container{
+        margin: 40px 0;
+        height: 100%;
+    }
+    .contact-container .content{
+        flex-direction: column-reverse;
+    }
+    .contact-container .content .get-in-touch{
+        width: 100%;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contact-container .content .get-in-touch::before{
+        display: none;
+    }
+    .contact-container .content .contact-form{
+        width: 100%;
+        margin-left: 0;
+    }
+    /* end */
 }

@@ -7,7 +7,7 @@ export const Service = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="anokhi-urja-service">
-                  <h2 class="commonTitleFontSize">OUR SERVICES</h2>
+                  <h2>OUR SERVICES</h2>
                   <img class="sectionLogo" src={img} alt="image4"></img>
                   <div className="subtext">{d.subheading}</div>
                   <div className="anokhi-urja-blogsection">

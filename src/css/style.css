@@ -10,8 +10,8 @@ body {
     font-family: Arial, Helvetica, sans-serif !important;
 }
 .commonTitleFontSize {
-    font-size: 36px !important;
-    color: #ee3765 !important;
+    font-size: 36px;
+    color: #ee3765;
     margin-bottom: 10px;
 }
 .commonWidth {
@@ -373,7 +373,20 @@ body {
 /* end */
 /* contact us section */
 .anokhiUrja-contactform h2{
-    
+    font-size: 36px;
+    color: #ee3765;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionLogo-contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 29px;
 }
 .contact-container{
     width: 100%;
@@ -541,13 +554,129 @@ body {
         margin: 1rem;
         padding: 1rem;
     }
+    .commonTitleFontSize{
+        font-size: 20px;
+    }
+    .sectionLogo{
+        width: 135px;
+    }
+    /* Awards section */
+    .anokhiUrja-awards-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .awards-image{
+        display: flex;
+        flex-direction: column;
+    }
+    .anokhiUrja-awards-flex .awards-img{
+        width: 285px;
+        height: 237px;
+    }
+    .awards-info h3{
+        font-size: 13px;
+        margin-top: 21px;
+        text-align: center;
+    }
+    /* end */
+
+    /* product section */
+    .product-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-container .product-img{
+        width: 232px;
+    }
+    /* end */
+
+    /* service section */
+    .anokhi-urja-service-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .anokhi-urja-service h2{
+        font-size: 20px;
+        color: #ee3765;
+        margin-bottom: 10px;
+    }
+    .subtext{
+        font-size: 18px;
+        text-align: center;
+        max-width: 700px;
+        margin: auto auto 60px auto;
+        color: #4D4D4D;
+    }
+    .anokhi-urja-blogsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blogs{
+        width: 250px;
+        height: 410px;
+    }
+    .blogs h2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .blogText{
+        font-size: 15px;
+        text-align: justify;
+    }
+    /* end */
+
+    /* video or blog section */
+    #BlogSection h2{
+        font-size: 20px;
+        color: #ee3765;
+        margin-bottom: 10px;
+    }
+    #BlogSection img{
+        width: 135px;
+        height: auto;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flex-item-left Iframe{
+        width: 250px;
+        height: 200px;
+    }
+    .flex-item-right Iframe{
+        width: 250px;
+        height: 200px;
+    }
+    /* end */
+
     /* contact us */
+    .anokhiUrja-contactform h2{
+        font-size: 20px;
+        color: #ee3765;
+        margin-bottom: 10px;
+    }
+    .sectionLogo-contactus{
+        width: 135px;
+        height: auto;
+    }
     .contact-container{
-        margin: 40px 0;
+        width: 92%;
+        margin: 30px 4px;
         height: 100%;
     }
     .contact-container .content{
         flex-direction: column-reverse;
+    }
+    .contact-container .contact-form .sub-topic-text{
+        font-size: 17px;
+        margin-bottom: 10px;
     }
     .contact-container .content .get-in-touch{
         width: 100%;
@@ -564,4 +693,6 @@ body {
         margin-left: 0;
     }
     /* end */
+
+
 }

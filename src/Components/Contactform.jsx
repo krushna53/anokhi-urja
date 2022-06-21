@@ -10,7 +10,7 @@ export const Contactform = (props) => {
     <>
       <div className="anokhiUrja-contactform container-spacing" id="contactus">
         <h2>Contact Us</h2>
-        <img src={img} alt="image4" className="sectionLogo" />
+        <img src={img} alt="image4" className="sectionLogo-contactus" />
         {props.data
           ? props.data.map((d, i) => (
               <div className="contact-container">

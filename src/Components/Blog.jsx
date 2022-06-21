@@ -3,10 +3,10 @@ import Iframe from 'react-iframe';
 export const Blog = (props) => {
   return (
     <>
-      <div className="commonWidth mainbox container-spacing" id="video">
+      <div className="commonWidth container-spacing" id="video">
         <div id="BlogSection">
-        <h2 className="commonTitleFontSize">VIDEO SECTION</h2>
-                <img className="sectionLogo" src={img} alt="image4"/>
+        <h2>VIDEO SECTION</h2>
+                <img src={img} alt="image4"/>
                 <div className="flex-container">
                     <div className="flex-item-left"><Iframe
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

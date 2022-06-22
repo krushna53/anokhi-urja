@@ -1,4 +1,8 @@
+import React, { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars,faTimes } from '@fortawesome/free-solid-svg-icons';
 export const Header = (props) => {
+  const [isMobile, setIsMobile] = useState(true);
   return (
     <>
       <div>
@@ -11,7 +15,7 @@ export const Header = (props) => {
                   </a>
                 </div>
 
-                <div className="anokhiUrja-navbar">
+                <div className={isMobile ? "anokhiUrja-navbar-mobile" : "anokhiUrja-navbar"} onClick={() => setIsMobile(false)}>
                   <ul>
                     {d.menuItems
                       ? d.menuItems.map((item) => {
@@ -23,8 +27,8 @@ export const Header = (props) => {
                         })
                       : "loading"}
                   </ul>
+                  <button className="mobile-menu">{isMobile ? <FontAwesomeIcon icon={faBars}></FontAwesomeIcon> : <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>}</button>
                 </div>
-
                 <div className="anokhiUrja-Con-button">
                   <button id="contact-popup">Contact Us</button>
                 </div>

@@ -78,6 +78,9 @@ body {
     font-size: 1.2rem;
     color: #4D4D4D;
 }
+.anokhiUrja-navbar .mobile-menu{
+    display: none;
+}
 .anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button {
     margin: 2rem 2rem;
 }
@@ -234,8 +237,6 @@ body {
 
 
 /* css for service section  */
-.anokhi-urja-service-section {
-}
 .anokhi-urja-service {
     display: flex;
     justify-content: center;
@@ -564,6 +565,65 @@ body {
     .sectionLogo{
         width: 135px;
     }
+
+    /* Header */
+    .anokhiUrja-navbar .mobile-menu{
+        display: flex;
+    }
+    .anokhiUrja-container .anokhiUrja-navbar li{
+        color: #121111;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .anokhiUrja-navbar-mobile{
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        background-color: #efa92a;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        font-size: 24px;
+        width: 35px;
+        height: 36px;
+        color: #121111;
+        background-color: #efa92a;
+    }
+    .anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button button{
+        display: none;
+    }
+    /* end */
+    /* about us section */
+    .anokhiUrja-AboutUs-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .anokhiUrja-AboutUs-flex .AboutUs-info{
+        width: 250px;
+        height: auto;
+    }
+    .AboutUs-info h3{
+        font-size: 15.8px;
+    }
+    .AboutUs-info p{
+        font-size: 12px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    .aboutus-image .solar-img{
+        width: 258px;
+        height: auto;
+    }
+    /* end */
     /* Awards section */
     .anokhiUrja-awards-flex{
         display: flex;
@@ -583,6 +643,13 @@ body {
         font-size: 13px;
         margin-top: 21px;
         text-align: center;
+    }
+    /* end */
+
+    /* product gallery section */
+    .gallery-image img{
+        max-width: 220px;
+        height: auto;
     }
     /* end */
 
@@ -698,5 +765,27 @@ body {
     }
     /* end */
 
+    /* footer section */
+    .anokhiUrja-Footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 33px;
+    }
+    .anokhiUrja-Footer .box{
+        flex-basis: 26%;
+        padding: 67px 20px 20px 15px;
+    }
+    .footer-logo{
+        width: 157px;
+        height: auto;
+        padding: 62px 20px 0px 26px;
+    }
+    .box .content{
+        margin: 20px 0 0 0;
+        position: relative;
+    }
+    /* end */
 
 }

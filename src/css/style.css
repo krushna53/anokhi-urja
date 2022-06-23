@@ -510,22 +510,22 @@ body {
 
     /* css for awards */
     .awards-image .awards-img{
-        width: 390px;
-        height: 343px;
+        width: 370px;
+        height: 336px;
         border-radius: 5px;
     }
     /* end */
 
     /* css for products */
     .product-img{
-        width: 263px;
+        width: 245px;
         height: auto;
     }
     /* end */
 
     /* css for products */
     .gallery-image img{
-        max-width: 250px;
+        max-width: 230px;
         height: auto;
     }
     /* end */
@@ -533,7 +533,8 @@ body {
     /* css for service */
     /* here blog means service section cards */
     .blogs{
-        max-width: 250px;
+        max-width: 189px;
+        height: auto;
     }
     .blogText{
         font-size: 17px;
@@ -542,14 +543,19 @@ body {
 
     /* css for video */
     .flex-item-left Iframe{
-        width: 400px;
+        width: 370px;
         height: 304px;
     }
     .flex-item-right Iframe{
-        width: 400px;
+        width: 370px;
         height: 304px;
     }
     /* end */
+    .right Iframe{
+        border: 1px solid black;
+        width: 204px;
+        height: 200px;
+    }
 }
 /* end */
 /* css for mobile responsive */

@@ -657,8 +657,8 @@ body {
         align-items: center;
     }
     .blogs{
-        width: 250px;
-        height: 410px;
+        max-width: 320px;
+        height: auto;
     }
     .blogs h2{
         font-size: 20px;
@@ -688,12 +688,12 @@ body {
         align-items: center;
     }
     .flex-item-left Iframe{
-        width: 250px;
-        height: 200px;
+        width: 330px;
+        height: 230px;
     }
     .flex-item-right Iframe{
-        width: 250px;
-        height: 200px;
+        width: 330px;
+        height: 230px;
     }
     /* end */
 

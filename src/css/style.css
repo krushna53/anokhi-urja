@@ -40,66 +40,6 @@ body {
     margin: auto;
     max-width: 1796px;
 }
-.anokhiUrja-container .anokhiUrja-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    background: #d4cbcb;
-    width: 100%;
-    height: 110px;
-}
-.anokhiUrja-container .anokhiUrja-logo {
-    margin: 1rem 1rem;
-}
-.anokhiUrja-logo img {
-    width: 80px;
-    height: 115px;
-    margin-left: 15px;
-}
-.anokhiUrja-container .anokhiUrja-navbar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-.anokhiUrja-container .anokhiUrja-navbar li {
-    display: inline-block;
-    margin-left: 1.5rem;
-    border-radius: 0.2rem;
-    -webkit-border-radius: 0.2rem;
-    -moz-border-radius: 0.2rem;
-    -ms-border-radius: 0.2rem;
-    -o-border-radius: 0.2rem;
-}
-.anokhiUrja-container .anokhiUrja-navbar li a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #4D4D4D;
-}
-.anokhiUrja-navbar .mobile-menu{
-    display: none;
-}
-.anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button {
-    margin: 2rem 2rem;
-}
-.anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button button {
-    background: #efa92a;
-    padding: 1rem;
-    border-radius: 0.2rem;
-    font-size: 1.2rem;
-    border: none;
-    color: #4D4D4D;
-    -webkit-border-radius: 0.2rem;
-    -moz-border-radius: 0.2rem;
-    -ms-border-radius: 0.2rem;
-    -o-border-radius: 0.2rem;
-}
-.anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button button:hover {
-    cursor: pointer;
-    background: #89C407;
-}
 
 /* css for banner */
 .anokhiUrja-container .anokhiUrja-banner {
@@ -553,6 +493,65 @@ body {
 }
 /* end */
 
+
+/* css for tablet resposnsive */
+@media only screen and (max-width: 1024px) {
+    /* css for about us */
+    .anokhiUrja-AboutUs-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .anokhiUrja-AboutUs-flex .AboutUs-info{
+        margin-bottom: 20px;
+    }
+    /* end */
+
+    /* css for awards */
+    .awards-image .awards-img{
+        width: 390px;
+        height: 343px;
+        border-radius: 5px;
+    }
+    /* end */
+
+    /* css for products */
+    .product-img{
+        width: 263px;
+        height: auto;
+    }
+    /* end */
+
+    /* css for products */
+    .gallery-image img{
+        max-width: 250px;
+        height: auto;
+    }
+    /* end */
+
+    /* css for service */
+    /* here blog means service section cards */
+    .blogs{
+        max-width: 250px;
+    }
+    .blogText{
+        font-size: 17px;
+    }
+    /* end */
+
+    /* css for video */
+    .flex-item-left Iframe{
+        width: 400px;
+        height: 304px;
+    }
+    .flex-item-right Iframe{
+        width: 400px;
+        height: 304px;
+    }
+    /* end */
+}
+/* end */
 /* css for mobile responsive */
 @media only screen and (max-width: 767px) {
     .container-spacing {
@@ -565,41 +564,6 @@ body {
     .sectionLogo{
         width: 135px;
     }
-
-    /* Header */
-    .anokhiUrja-navbar .mobile-menu{
-        display: flex;
-    }
-    .anokhiUrja-container .anokhiUrja-navbar li{
-        color: #121111;
-        text-align: center;
-        padding: 32px;
-        width: 100%;
-        transition: all 0.5s ease;
-    }
-    .anokhiUrja-navbar-mobile{
-        position: absolute;
-        display: block;
-        list-style-type: none;
-        background-color: #efa92a;
-        left: 0;
-        top: 75px;
-        transition: all 0.5s ease-out;
-        width: 100%;
-    }
-    .mobile-menu{
-        display: block;
-        position: absolute;
-        font-size: 24px;
-        width: 35px;
-        height: 36px;
-        color: #121111;
-        background-color: #efa92a;
-    }
-    .anokhiUrja-container .anokhiUrja-header .anokhiUrja-Con-button button{
-        display: none;
-    }
-    /* end */
     /* about us section */
     .anokhiUrja-AboutUs-flex{
         display: flex;
@@ -787,5 +751,4 @@ body {
         position: relative;
     }
     /* end */
-
 }

@@ -1,21 +1,31 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars,faTimes } from '@fortawesome/free-solid-svg-icons';
+import logo from "../Images/anokhi-urja-New.png";
+import "../css/navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 export const Header = (props) => {
-  const [isMobile, setIsMobile] = useState(true);
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <>
       <div>
         {props.data
           ? props.data.map((d, i) => (
-              <div className="anokhiUrja-header gridspaceWithCenter" id="Home">
-                <div key={`${d.name}-${i}`} className="anokhiUrja-logo">
-                  <a href="#Home">
-                    <img src={d.logo} alt="logo" />
-                  </a>
-                </div>
-
-                <div className={isMobile ? "anokhiUrja-navbar-mobile" : "anokhiUrja-navbar"} onClick={() => setIsMobile(false)}>
+              <nav key={`${d.name}-${i}`} className="navigation">
+                <img src={logo} alt="logo" className="brand-name" />
+                <button
+                  className="hamburger"
+                  onClick={() => {
+                    setIsNavExpanded(!isNavExpanded);
+                  }}
+                >
+                  <GiHamburgerMenu />
+                </button>
+                <div
+                  className={
+                    isNavExpanded
+                      ? "navigation-menu expanded"
+                      : "navigation-menu"
+                  }
+                >
                   <ul>
                     {d.menuItems
                       ? d.menuItems.map((item) => {
@@ -27,12 +37,11 @@ export const Header = (props) => {
                         })
                       : "loading"}
                   </ul>
-                  <button className="mobile-menu">{isMobile ? <FontAwesomeIcon icon={faBars}></FontAwesomeIcon> : <FontAwesomeIcon icon={faTimes}></FontAwesomeIcon>}</button>
                 </div>
-                <div className="anokhiUrja-Con-button">
-                  <button id="contact-popup">Contact Us</button>
+                <div className="navbar-contactbtn">
+                  <button>Contact Us</button>
                 </div>
-              </div>
+              </nav>
             ))
           : "loading"}
       </div>

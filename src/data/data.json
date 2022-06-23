@@ -2,11 +2,11 @@
     "Header" : [{
         "name": "Header",
         "menuItems": [ {"name" : "Home","id": "#Home"},
-            {"name" : "Product","id": "#Product"},
+            {"name" : "Product","id": "#product"},
             {"name" : "Service","id": "#service"},
             {"name" : "Video","id": "#video"},
             {"name" : "About Us","id":"#aboutus"},
-            {"name" : "Contact Us","id": "#contact"}],
+            {"name" : "Contact Us","id": "#contactus"}],
         "logo": "/Images/anokhi-urja-New.png"
     }],
     "Banner" : [{

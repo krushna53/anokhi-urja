@@ -3,7 +3,7 @@ export const ProductGallery = (props) => {
   return (
     <>
       <div className="anokhiUrja-gallery">
-        <h2 className="commonTitleFontSize">PRODUCT-GALLERY</h2>
+        <h2 className="commonTitleFontSize">PRODUCT GALLERY</h2>
         <img class="sectionLogo" src={img} alt="Image54" />
         {props.data
           ? props.data.map((d, i) => (

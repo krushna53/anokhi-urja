@@ -6,6 +6,7 @@ import { Service } from "./Components/Service";
 import { Awards } from "./Components/Awards";
 import { OurProducts } from "./Components/OurProducts";
 import { Blog } from "./Components/Blog";
+import { Clientsection } from "./Components/Clientsection";
 import { Contactform } from "./Components/Contactform";
 import { ProductGallery } from "./Components/ProductGallery";
 import { Footer } from "./Components/Footer";
@@ -35,6 +36,7 @@ function App() {
           <ProductGallery data={landingPageData.ProductGallery}/>
           <Service data={landingPageData.Service}/>
           <Blog/>
+          <Clientsection data={landingPageData.Clientsection}/>
           <Contactform data={landingPageData.Contactform}/>
           <Footer data={landingPageData.Footer}/>
           <div class="anokhiUrja-copy-right">

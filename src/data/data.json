@@ -71,6 +71,11 @@
         "name": "blog section",
         "Heading": "BLOGS"
     }],
+    "Clientsection" : [{
+        "name" : "client says",
+        "comment" : "Going green and swapping your old conventional energy grid for a solar panel is a responsible decision.We understand that, as by now we’ve already helped thousands of American…",
+        "image1" : "/Images/member-02.jpg"
+    }],
     "Contactform" : [{
         "name": "Contact Us",
         "location": "B/107, Darshan Geeta, Mira Bhayandar Road. Mira Road, East, Mumbai-401107, Maharashtra, India",
